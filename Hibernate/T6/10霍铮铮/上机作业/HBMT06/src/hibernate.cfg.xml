@@ -17,10 +17,11 @@
 	<property name="connection.driver_class">
 		com.microsoft.sqlserver.jdbc.SQLServerDriver
 	</property>
-	<mapping resource="com/qhit/lh/grsb/wyl/t6/bean/Dept.hbm.xml" />
-	<mapping resource="com/qhit/lh/grsb/wyl/t6/bean/Emp.hbm.xml" />
-	<mapping resource="com/qhit/lh/grsb/wyl/t6/bean/Role.hbm.xml" />
-	<mapping resource="com/qhit/lh/grsb/wyl/t6/bean/User.hbm.xml" />
+	<property name="show_sql">true</property>
+	<mapping resource="com/qhit/lh/gr3b/t6/bean/Dept.hbm.xml" />
+	<mapping resource="com/qhit/lh/gr3b/t6/bean/Emp.hbm.xml" />
+	<mapping resource="com/qhit/lh/gr3b/t6/bean/Role.hbm.xml" />
+	<mapping resource="com/qhit/lh/gr3b/t6/bean/User.hbm.xml" />
 
 </session-factory>
 
